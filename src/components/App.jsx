@@ -84,7 +84,6 @@ function App() {
         <button 
                 style={{ float: "right" }}
                 onClick={() => {
-                  // setItemList(itemList.filter((a) => a.index !== index));
                   setItemList([]);
                   localStorage.removeItem('itemList');
                 }}
